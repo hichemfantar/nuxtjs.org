@@ -2666,6 +2666,11 @@
   dependencies:
     tslib "^2.3.0"
 
+"@vue/devtools-api@^6.1.4":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.2.0.tgz#e3dc98a0cce8e87292745e2d24c9ee8c274a023b"
+  integrity sha512-pF1G4wky+hkifDiZSWn8xfuLOJI1ZXtuambpBEYaf7Xaf6zC/pM29rvAGpd3qaGXnr4BAXU1Pxz/VfvBGwexGA==
+
 "@vue/shared@3.1.5":
   version "3.1.5"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.1.5.tgz"
@@ -13411,10 +13416,12 @@ vue-resize@^1.0.1:
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-vue-router@^3.5.2, vue-router@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
-  integrity sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==
+vue-router@^3.5.2, vue-router@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.1.1.tgz#90cc533efafdcf90d157bdc20a376760cdb59c10"
+  integrity sha512-Wp1mEf2xCwT0ez7o9JvgpfBp9JGnVb+dPERzXDbugTatzJAJ60VWOhJKifQty85k+jOreoFHER4r5fu062PhPw==
+  dependencies:
+    "@vue/devtools-api" "^6.1.4"
 
 vue-server-renderer@^2.6.14:
   version "2.6.14"
